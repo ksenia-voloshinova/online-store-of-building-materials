@@ -1,0 +1,211 @@
+{
+  "extends": [
+    "next",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "prettier"
+  ],
+  "env": {
+    "browser": true,
+    "es2020": true,
+    "node": true,
+    "jest": true
+  },
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "plugins": ["simple-import-sort"],
+  "rules": {
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error",
+
+    // https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/jsx-no-target-blank.md
+    "react/jsx-no-target-blank": 0,
+
+    // https://eslint.org/docs/latest/rules/indent#rule-details
+    "indent": [
+      "error",
+      4
+    ],
+
+    // https://eslint.org/docs/latest/rules/quotes#rule-details
+    "quotes": [
+      "error",
+      "double"
+    ],
+
+    // https://eslint.org/docs/latest/rules/semi#rule-details
+    "semi": [
+      "error",
+      "always"
+    ],
+
+    // https://eslint.org/docs/latest/rules/max-len#rule-details
+    "max-len": [
+      "error",
+      {
+        "code": 120,
+        "tabWidth": 4,
+        "ignoreUrls": true,
+        "ignoreRegExpLiterals": true,
+        "ignoreTrailingComments": true
+      }
+    ],
+
+    // https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-unresolved.md
+    "import/no-unresolved": 0,
+
+    // https://eslint.org/docs/latest/rules/space-before-function-paren#rule-details
+    "space-before-function-paren": 0,
+
+    // https://eslint.org/docs/latest/rules/no-magic-numbers#rule-details
+    "no-magic-numbers": 0,
+
+    // https://eslint.org/docs/latest/rules/sort-keys#rule-details
+    "sort-keys": 0,
+
+    // https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/named.md
+    "import/named": 0,
+
+    // https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/display-name.md
+    "react/display-name": 0,
+
+    // https://eslint.org/docs/latest/rules/padding-line-between-statements#rule-details
+    "padding-line-between-statements": [
+      "error",
+      {
+        "blankLine": "always",
+        "prev": "*",
+        "next": "return"
+      },
+      {
+        "blankLine": "always",
+        "prev": [
+          "const",
+          "let",
+          "var"
+        ],
+        "next": "*"
+      },
+      {
+        "blankLine": "any",
+        "prev": [
+          "const",
+          "let",
+          "var"
+        ],
+        "next": [
+          "const",
+          "let",
+          "var"
+        ]
+      }
+    ],
+
+    // https://eslint.org/docs/latest/rules/object-curly-spacing#rule-details
+    "object-curly-spacing": [
+      "error",
+      "always"
+    ],
+
+    // https://eslint.org/docs/latest/rules/one-var#rule-details
+    "one-var": [
+      "error",
+      "never"
+    ],
+
+    // https://eslint.org/docs/latest/rules/sort-imports
+    "sort-imports": 0,
+
+    // https://eslint.org/docs/latest/rules/capitalized-comments#rule-details
+    "capitalized-comments": 0,
+
+    // https://eslint.org/docs/latest/rules/max-lines-per-function#rule-details
+    "max-lines-per-function": 0,
+
+    // https://eslint.org/docs/latest/rules/require-unicode-regexp
+    "require-unicode-regexp": 0,
+
+    // https://eslint.org/docs/latest/rules/no-console#rule-details
+    "no-console": 0,
+
+    // https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/prop-types.md
+    "react/prop-types": 0,
+
+    // https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/jsx-no-literals.md
+    "react/jsx-no-literals": 0,
+
+    // https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/jsx-max-depth.md
+    "react/jsx-max-depth": 0,
+
+    "react-hooks/exhaustive-deps": 0,
+
+    // https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/function-component-definition.md
+    "react/function-component-definition": [
+      2,
+      {
+        "namedComponents": "arrow-function",
+        "unnamedComponents": "arrow-function"
+      }
+    ],
+
+    // https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/jsx-indent.md
+    "react/jsx-indent": [
+      "error",
+      4
+    ],
+
+    // https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/jsx-indent-props.md
+    "react/jsx-indent-props": [
+      "error",
+      4
+    ],
+
+    // https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/jsx-filename-extension.md
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [
+          ".jsx",
+          ".tsx",
+          ".js",
+          ".ts"
+        ]
+      }
+    ],
+
+    "react-hooks/rules-of-hooks": 0,
+
+    // https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/react-in-jsx-scope.md
+    "react/react-in-jsx-scope": 0,
+
+    // https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/jsx-one-expression-per-line.md
+    "react/jsx-one-expression-per-line": 0,
+
+    // https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/jsx-props-no-spreading.md
+    "react/jsx-props-no-spreading": 0,
+
+    // https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/jsx-sort-props.md
+    "react/jsx-sort-props": [
+      1,
+      {
+        "callbacksLast": true,
+        "shorthandFirst": true,
+        "multiline": "last",
+        "ignoreCase": true,
+        "reservedFirst": [
+          "key",
+          "ref"
+        ],
+        "noSortAlphabetically": false
+      }
+    ]
+  },
+  "ignorePatterns": [
+    "node_modules/",
+    ".next/"
+  ]
+}

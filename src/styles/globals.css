@@ -1,0 +1,197 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Formular";
+    src: url("../assets/fonts/Formular.woff");
+}
+
+@layer base {
+    * {
+        padding: 0;
+        margin: 0;
+
+        font-family: Formular, system-ui, sans-serif;
+        color: theme("colors.blueMagentaDark");
+
+        box-sizing: border-box;
+    }
+
+    body {
+        min-height: 100vh;
+    }
+
+    #__next {
+        display: flex;
+        flex-direction: column;
+        flex: 1 0 auto;
+        min-height: 100vh;
+    }
+
+    a {
+        color: inherit;
+        text-decoration: none;
+    }
+
+    .container {
+        padding: 0 theme("spacing.containerSm");
+
+        max-width: 100% !important;
+    }
+
+    .container-width {
+        margin: auto;
+
+        max-width: 1920px !important;
+    }
+
+    .scrollhost::-webkit-scrollbar {
+        width: 30px;
+    }
+
+    .scrollhost::-webkit-scrollbar-track {
+        background: theme("colors.cyanBlueLight");
+        border: 13px solid white;
+        border-top: none;
+        border-bottom: none;
+    }
+
+    .scrollhost::-webkit-scrollbar-thumb {
+        background-color: theme("colors.cyanBlueCool");
+        border: 13px solid white;
+        border-top: none;
+        border-bottom: none;
+    }
+
+    @media screen and (min-width: theme("screens.md")) {
+        .container {
+            padding: 0 theme("spacing.containerMd");
+        }
+    }
+
+    @media screen and (min-width: theme("screens.2xl")) {
+        .container {
+            padding: 0 theme("spacing.containerXl");
+        }
+    }
+
+    @media screen and (min-width: theme("screens.3xl")) {
+        .container {
+            padding: 0 theme("spacing.containerXxl");
+        }
+    }
+
+    .promotions-swiper .swiper-button-disabled,
+    .detail-thumbs-swiper .swiper-button-disabled,
+    .detail-swiper .swiper-button-disabled,
+    .viewed-swiper .swiper-button-disabled {
+        display: none;
+    }
+
+    .promotions-swiper .swiper-wrapper {
+        padding: 20px 0;
+
+        display: flex;
+        width: 100%;
+    }
+
+    .detail-thumbs-swiper .swiper-slide.swiper-slide-thumb-active {
+        border: 1px solid theme("colors.red");
+    }
+
+    .detail-swiper.swiper .swiper-pagination {
+        bottom: -5px;
+    }
+
+    .detail-swiper .swiper-pagination-bullet {
+        width: 10px;
+        height: 10px;
+        background-color: theme("colors.cyanBlueMiddle");
+        opacity: 0.7;
+    }
+
+    .detail-swiper .swiper-pagination-bullet-active {
+        background-color: theme("colors.blueMagentaDark");
+        opacity: 1;
+    }
+
+    .thumb,
+    .thumb::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    .thumb::-webkit-slider-thumb {
+        background-color: theme("colors.yellowWarm");
+        border: none;
+        cursor: pointer;
+        height: 12px;
+        width: 12px;
+        margin-top: 4px;
+        pointer-events: all;
+        position: relative;
+    }
+
+    .thumb::-moz-range-thumb {
+        background-color: theme("colors.yellowWarm");
+        border: none;
+        cursor: pointer;
+        height: 12px;
+        width: 12px;
+        margin-top: 4px;
+        pointer-events: all;
+        position: relative;
+    }
+
+    .react-datepicker .react-datepicker__triangle {
+        display: none !important;
+    }
+
+    .react-datepicker .react-datepicker__day--selected {
+        background-color: theme("colors.yellowWarm") !important;
+    }
+
+    .react-datepicker .react-datepicker__day--keyboard-selected {
+        background-color: transparent;
+        color: black;
+    }
+}
+
+.react-reveal {
+    height: 100% !important;
+}
+
+.ymap-gray-mode .ymaps-2-1-79-ground-pane {
+    filter: grayscale(1);
+    -ms-filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    -moz-filter: grayscale(1);
+    -o-filter: grayscale(1);
+}
+.ymap-custom-marker {
+    display: flex;
+    width: max-content;
+    justify-content: space-between;
+    padding: 10px 12px;
+    align-items: center;
+    gap: 6px;
+    border-radius: 6px;
+    max-width: 261px;
+    flex-wrap: nowrap;
+    border: 1px solid black;
+    position: relative;
+    cursor: pointer;
+    background-color: theme("colors.cyanBlueLight");
+}
+.ymap-custom-marker svg {
+    flex-shrink: 0;
+}
+.ymap-custom-marker-active {
+    background-color: theme("colors.yellowWarm");
+}
+.ymap-custom-marker span {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 120%;
+}

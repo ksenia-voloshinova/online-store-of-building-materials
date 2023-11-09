@@ -1,0 +1,2254 @@
+{
+    "users": [
+        {
+            "id": 1669697579767,
+            "phone": "+7 (912) 391-96-71",
+            "firstName": "Алёна",
+            "lastName": "Комарова",
+            "email": "ahyk2346@gmail.com",
+            "password": "banana128"
+        }
+    ],
+    "global": {
+        "phone": {
+            "text": "+7 (912) 391-96-71",
+            "link": "+7(912)391-96-71"
+        }
+    },
+    "usersSubscription": ["ahyk2346@gmail.com", "ahyk23@gmail.com"],
+    "paymentTypes": [
+        {
+            "uuid": "card",
+            "name": "Банковской картой"
+        },
+        {
+            "uuid": "transfer",
+            "name": "Банковским переводом"
+        }
+    ],
+    "shippingTypes": [
+        {
+            "uuid": "shipping_uuid",
+            "name": "Доставка",
+            "code": "shipping"
+        },
+        {
+            "uuid": "pickup_uuid",
+            "name": "Самовывоз",
+            "code": "pickup"
+        }
+    ],
+    "pickupAddresses": [
+        {
+            "uuid": "ZZZ-000",
+            "name": "г. Тюмень, ул. Максима Горького, 70",
+            "address": "г. Тюмень, ул. Максима Горького, 70",
+            "coords": {
+                "latitude": 57.148849,
+                "longitude": 65.559876
+            },
+            "worktime": "пн—вс с 09:00 до 17:00",
+            "deliveryDate": "24.01.2023"
+        },
+        {
+            "uuid": "XXX-111",
+            "name": "г. Тюмень, ул. Дмитрия Менделеева, 1",
+            "address": "г. Тюмень, ул. Дмитрия Менделеева 1",
+            "coords": {
+                "latitude": 57.116629,
+                "longitude": 65.551935
+            },
+            "worktime": "пн—вс с 09:00 до 17:00",
+            "deliveryDate": "24.02.2023"
+        },
+        {
+            "uuid": "AAA-222",
+            "name": "г. Тюмень, ул. Валерии Гнаровской, 12",
+            "address": "г. Тюмень, ул. Валерии Гнаровской, 12",
+            "coords": {
+                "latitude": 57.123451,
+                "longitude": 65.562813
+            },
+            "worktime": "пн—вс с 09:00 до 17:00",
+            "deliveryDate": "03.01.2023"
+        }
+    ],
+    "basket": [
+        {
+            "id": 2,
+            "count": 5,
+            "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya/golubika",
+            "image": "",
+            "name": "Гибкая черепица Docke PIE PREMIUM КЁЛЬН Голубика",
+            "rate": 3,
+            "isSalable": true,
+            "basePrice": 297,
+            "fullPrice": 1485,
+            "measureCode": "metr",
+            "measureName": "м2",
+            "article": "ZRKM-1070",
+            "converters": [
+                {
+                    "name": "лист",
+                    "code": "list",
+                    "codeOKEI": 0,
+                    "multiplier": 0.5
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "count": 2,
+            "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya/golubika",
+            "image": "/static/product.svg",
+            "name": "Гибкая черепица Docke PIE PREMIUM КЁЛЬН Голубика",
+            "rate": 4.99,
+            "isSalable": true,
+            "basePrice": 297,
+            "fullPrice": 594,
+            "measureCode": "metr",
+            "measureName": "м2",
+            "article": "ZRKM-1070",
+            "converters": [
+                {
+                    "name": "лист",
+                    "code": "list",
+                    "codeOKEI": 0,
+                    "multiplier": 0.5
+                }
+            ]
+        }
+    ],
+    "favorites": [
+        {
+            "id": 6,
+            "elementId": 6,
+            "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya/golubika",
+            "image": "/static/product.svg",
+            "name": "Гибкая черепица Docke PIE PREMIUM КЁЛЬН Голубика",
+            "basePrice": 297,
+            "salePrice": 200,
+            "isSale": false,
+            "isSalable": true,
+            "rate": 3,
+            "fullPrice": 297,
+            "weight": 2,
+            "volume": 3,
+            "measureCode": "metr",
+            "measureName": "м2",
+            "article": "ZRKM-1070",
+            "converters": [
+                {
+                    "name": "лист",
+                    "code": "list",
+                    "codeOKEI": 0,
+                    "multiplier": 0.5
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "elementId": 1,
+            "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya/golubika",
+            "image": "/static/product.svg",
+            "name": "Гибкая черепица Docke PIE PREMIUM КЁЛЬН Голубика",
+            "basePrice": 297,
+            "salePrice": 200,
+            "isSale": true,
+            "isSalable": true,
+            "rate": 4.99,
+            "fullPrice": 297,
+            "weight": 2,
+            "volume": 3,
+            "measureCode": "metr",
+            "measureName": "м2",
+            "article": "ZRKM-1070",
+            "converters": [
+                {
+                    "name": "лист",
+                    "code": "list",
+                    "codeOKEI": 0,
+                    "multiplier": 0.5
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "elementId": 5,
+            "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya/golubika",
+            "image": "/static/product.svg",
+            "name": "Гибкая черепица Docke PIE PREMIUM КЁЛЬН Голубика",
+            "basePrice": 297,
+            "salePrice": 200,
+            "isSale": true,
+            "rate": 4.99,
+            "fullPrice": 297,
+            "weight": 2,
+            "volume": 3,
+            "measureCode": "metr",
+            "measureName": "м2",
+            "article": "ZRKM-1070",
+            "converters": [
+                {
+                    "name": "лист",
+                    "code": "list",
+                    "codeOKEI": 0,
+                    "multiplier": 0.5
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "elementId": 4,
+            "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya/golubika",
+            "image": "/static/product.svg",
+            "name": "Гибкая черепица Docke PIE PREMIUM КЁЛЬН Голубика",
+            "basePrice": 297,
+            "salePrice": 200,
+            "isSale": false,
+            "rate": 0,
+            "fullPrice": 297,
+            "weight": 2,
+            "volume": 3,
+            "measureCode": "metr",
+            "measureName": "м2",
+            "article": "ZRKM-1070",
+            "converters": [
+                {
+                    "name": "лист",
+                    "code": "list",
+                    "codeOKEI": 0,
+                    "multiplier": 0.5
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "elementId": 3,
+            "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya/golubika",
+            "image": "/static/kitten.jpg",
+            "name": "Гибкая черепица Docke PIE PREMIUM КЁЛЬН Черника",
+            "basePrice": 400,
+            "salePrice": 200,
+            "isSale": false,
+            "isSalable": true,
+            "rate": 5,
+            "fullPrice": 400,
+            "weight": 2,
+            "volume": 3,
+            "measureCode": "metr",
+            "measureName": "м2",
+            "article": "ZRKM-1070",
+            "converters": [
+                {
+                    "name": "лист",
+                    "code": "list",
+                    "codeOKEI": 0,
+                    "multiplier": 0.5
+                }
+            ]
+        }
+    ],
+    "addresses": [
+        {
+            "id": "address-1",
+            "name": "Офис",
+            "city": "Тюмень",
+            "street": "Пермякова",
+            "house": "1c5",
+            "apartment": "903",
+            "isDefault": true,
+            "longitude": 0,
+            "latitude": 0
+        },
+        {
+            "id": "address-2",
+            "name": "Дом",
+            "city": "Тюмень",
+            "street": "Максима Горького",
+            "house": "70",
+            "apartment": "",
+            "isDefault": false,
+            "latitude": 57.148849,
+            "longitude": 65.559876
+        }
+    ],
+    "orders": [
+        {
+            "id": "100177312",
+            "orderNumber": "100177312",
+            "datetime": "28.03.2020",
+            "basePrice": 297,
+            "fullPrice": 7000,
+            "status": "Выдан",
+            "statusCode": "string",
+            "actions": {
+                "canRepeat": true,
+                "canPay": false,
+                "canCancel": false
+            },
+            "payment": {
+                "link": "#",
+                "status": "string"
+            },
+            "items": [
+                {
+                    "id": "id-1",
+                    "name": "Гибкая черепица Docke PIE PREMIUM КЁЛЬН Голубика",
+                    "image": "/static/product.svg",
+                    "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya/golubika/",
+                    "article": "ZRKM-1025",
+                    "basePrice": 297,
+                    "fullPrice": 6534,
+                    "count": 22,
+                    "measureCode": "metr",
+                    "measureName": "м2"
+                },
+                {
+                    "id": "id-2",
+                    "name": "Гибкая черепица Docke PIE PREMIUM КЁЛЬН Голубика",
+                    "image": "/static/product.svg",
+                    "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya/golubika/",
+                    "article": "ZRKM-1025",
+                    "basePrice": 297,
+                    "fullPrice": 6534,
+                    "count": 22,
+                    "measureCode": "list",
+                    "measureName": "лист"
+                }
+            ]
+        },
+        {
+            "id": "100177314",
+            "orderNumber": "100177314",
+            "datetime": "28.03.2020",
+            "basePrice": 297,
+            "fullPrice": 7000,
+            "status": "Выдан",
+            "statusCode": "string",
+            "actions": {
+                "canRepeat": true,
+                "canPay": false,
+                "canCancel": false
+            },
+            "payment": {
+                "link": "#",
+                "status": "string"
+            },
+            "items": [
+                {
+                    "id": "id-1",
+                    "name": "Гибкая черепица Docke PIE PREMIUM КЁЛЬН Голубика",
+                    "image": "/static/product.svg",
+                    "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya/golubika/",
+                    "article": "ZRKM-1025",
+                    "basePrice": 297,
+                    "fullPrice": 6534,
+                    "count": 22,
+                    "measureCode": "metr",
+                    "measureName": "м2"
+                }
+            ]
+        },
+        {
+            "id": "100177315",
+            "orderNumber": "100177315",
+            "datetime": "01.12.2022",
+            "basePrice": 297,
+            "fullPrice": 7000,
+            "status": "Отменить",
+            "statusCode": "string",
+            "actions": {
+                "canRepeat": false,
+                "canPay": false,
+                "canCancel": true
+            },
+            "payment": {
+                "link": "#",
+                "status": "string"
+            },
+            "items": [
+                {
+                    "id": "id-1",
+                    "name": "Гибкая черепица Docke PIE PREMIUM КЁЛЬН Голубика",
+                    "image": "/static/product.svg",
+                    "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya/golubika/",
+                    "article": "ZRKM-1025",
+                    "basePrice": 297,
+                    "fullPrice": 6534,
+                    "count": 22,
+                    "measureCode": "metr",
+                    "measureName": "м2"
+                }
+            ]
+        },
+        {
+            "id": 1672231634887,
+            "orderNumber": "03МС-1672231634887",
+            "datetime": "28.12.2022",
+            "fullPrice": 600,
+            "basePrice": 0,
+            "status": "Отменить",
+            "statusCode": "string",
+            "actions": {
+                "canRepeat": false,
+                "canPay": false,
+                "canCancel": true
+            },
+            "payment": {
+                "link": "#",
+                "status": "string"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "name": "Гибкая черепица Docke PIE PREMIUM КЁЛЬН Голубика",
+                    "image": "/static/product.svg",
+                    "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya/golubika",
+                    "article": "ZRKM-1070",
+                    "basePrice": 200,
+                    "fullPrice": 600,
+                    "count": 3,
+                    "measureCode": "metr",
+                    "measureName": "м2"
+                }
+            ]
+        },
+        {
+            "id": 1672315372443,
+            "orderNumber": "03МС-1672315372443",
+            "datetime": "29.12.2022",
+            "fullPrice": 600,
+            "basePrice": 0,
+            "status": "Отменить",
+            "statusCode": "string",
+            "actions": {
+                "canRepeat": false,
+                "canPay": false,
+                "canCancel": true
+            },
+            "payment": {
+                "link": "#",
+                "status": "string"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "name": "Гибкая черепица Docke PIE PREMIUM КЁЛЬН Голубика",
+                    "image": "/static/product.svg",
+                    "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya/golubika",
+                    "article": "ZRKM-1070",
+                    "basePrice": 200,
+                    "fullPrice": 600,
+                    "count": 3,
+                    "measureCode": "metr",
+                    "measureName": "м2"
+                }
+            ]
+        },
+        {
+            "id": 1672316741583,
+            "orderNumber": "03МС-1672316741583",
+            "datetime": "29.12.2022",
+            "fullPrice": 400,
+            "basePrice": 0,
+            "status": "Отменить",
+            "statusCode": "string",
+            "actions": {
+                "canRepeat": false,
+                "canPay": false,
+                "canCancel": true
+            },
+            "payment": {
+                "link": "#",
+                "status": "string"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "name": "Гибкая черепица Docke PIE PREMIUM КЁЛЬН Голубика",
+                    "image": "/static/product.svg",
+                    "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya/golubika",
+                    "article": "ZRKM-1070",
+                    "basePrice": 200,
+                    "fullPrice": 400,
+                    "count": 2,
+                    "measureCode": "metr",
+                    "measureName": "м2"
+                }
+            ]
+        },
+        {
+            "id": 1674649650873,
+            "orderNumber": "03МС-1674649650873",
+            "datetime": "25.01.2023",
+            "fullPrice": 1497,
+            "basePrice": 0,
+            "status": "Отменить",
+            "statusCode": "string",
+            "actions": {
+                "canRepeat": false,
+                "canPay": false,
+                "canCancel": true
+            },
+            "payment": {
+                "link": "#",
+                "status": "string"
+            },
+            "items": [
+                {
+                    "id": 7,
+                    "name": "Гибкая черепица Docke PIE PREMIUM КЁЛЬН Голубика",
+                    "image": "/static/product.svg",
+                    "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya/golubika",
+                    "article": "ZRKM-1070",
+                    "basePrice": 297,
+                    "fullPrice": 297,
+                    "count": 1,
+                    "measureCode": "metr",
+                    "measureName": "м2"
+                },
+                {
+                    "id": 3,
+                    "name": "Гибкая черепица Docke PIE PREMIUM КЁЛЬН Черника",
+                    "image": "/static/kitten.jpg",
+                    "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya/golubika",
+                    "article": "ZRKM-1070",
+                    "basePrice": 400,
+                    "fullPrice": 1200,
+                    "count": 3,
+                    "measureCode": "metr",
+                    "measureName": "м2"
+                }
+            ]
+        },
+        {
+            "id": 1674649698543,
+            "orderNumber": "03МС-1674649698543",
+            "datetime": "25.01.2023",
+            "fullPrice": 0,
+            "basePrice": 0,
+            "status": "Отменить",
+            "statusCode": "string",
+            "actions": {
+                "canRepeat": false,
+                "canPay": false,
+                "canCancel": true
+            },
+            "payment": {
+                "link": "#",
+                "status": "string"
+            },
+            "items": []
+        },
+        {
+            "id": 1674649761870,
+            "orderNumber": "03МС-1674649761870",
+            "datetime": "25.01.2023",
+            "fullPrice": 0,
+            "basePrice": 0,
+            "status": "Отменить",
+            "statusCode": "string",
+            "actions": {
+                "canRepeat": false,
+                "canPay": false,
+                "canCancel": true
+            },
+            "payment": {
+                "link": "#",
+                "status": "string"
+            },
+            "items": []
+        }
+    ],
+    "domain": {
+        "slug": "main",
+        "domain": "localhost:3000"
+    },
+    "regions": {
+        "currentRegion": "Тюмень",
+        "data": [
+            {
+                "id": "msc",
+                "slug": "main",
+                "name": "Москва"
+            },
+            {
+                "id": "tmn",
+                "slug": "tmn",
+                "name": "Тюмень"
+            },
+            {
+                "id": "spb",
+                "slug": "spb",
+                "name": "Санкт-Петербург"
+            },
+            {
+                "id": "shd",
+                "slug": "shd",
+                "name": "Салехард"
+            }
+        ]
+    },
+    "partners": [
+        {
+            "id": 1,
+            "name": "decover",
+            "image": "/static/decover.svg",
+            "link": "https://google.com"
+        },
+        {
+            "id": 2,
+            "name": "fakro",
+            "image": "/static/fakro.svg",
+            "link": "https://google.com"
+        },
+        {
+            "id": 3,
+            "name": "gyproc",
+            "image": "/static/gyproc.svg",
+            "link": "https://google.com"
+        },
+        {
+            "id": 4,
+            "name": "isover",
+            "image": "/static/isover.svg",
+            "link": "https://google.com"
+        },
+        {
+            "id": 5,
+            "name": "knauf",
+            "image": "/static/knauf.svg",
+            "link": "https://google.com"
+        }
+    ],
+    "suppliers": [],
+    "dealers": [],
+    "products": [
+        {
+            "id": 1,
+            "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya/golubika/",
+            "value": "Гибкая черепица Docke PIE PREMIUM КЁЛЬН Голубика"
+        },
+        {
+            "id": 2,
+            "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya/golubika/",
+            "value": "Гибкая черепица Docke PIE PREMIUM КЁЛЬН Брусника"
+        },
+        {
+            "id": 3,
+            "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya/golubika/",
+            "value": "Гибкая черепица Docke PIE PREMIUM КЁЛЬН Черника"
+        },
+        {
+            "id": 4,
+            "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya/golubika/",
+            "value": "Гибкая черепица Docke PIE PREMIUM КЁЛЬН Малина"
+        },
+        {
+            "id": 5,
+            "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya/golubika/",
+            "value": "Гибкая черепица Docke PIE PREMIUM КЁЛЬН Клубника"
+        },
+        {
+            "id": 6,
+            "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya/golubika/",
+            "value": "Гибкая черепица Docke PIE PREMIUM КЁЛЬН Ежевика"
+        },
+        {
+            "id": 7,
+            "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya/golubika/",
+            "value": "Гибкая черепица Docke PIE PREMIUM КЁЛЬН Крыжовник"
+        },
+        {
+            "id": 8,
+            "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya/golubika/",
+            "value": "Гибкая черепица Docke PIE PREMIUM КЁЛЬН Смородина"
+        },
+        {
+            "id": 9,
+            "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya/golubika/",
+            "value": "Гибкая черепица Docke PIE PREMIUM КЁЛЬН Земляника"
+        },
+        {
+            "id": 10,
+            "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya/golubika/",
+            "value": "Гибкая черепица Docke PIE PREMIUM КЁЛЬН Ирга"
+        }
+    ],
+    "promotions": [
+        {
+            "id": 1,
+            "link": "https://google.com",
+            "image": "/static/promotion1.svg",
+            "title": "Акция -20%",
+            "description": "Döcke LUX Воронка (Графит)",
+            "color": "#FBB906"
+        },
+        {
+            "id": 2,
+            "link": "https://google.com",
+            "image": "/static/promotion2.svg",
+            "title": "Акция -10%",
+            "description": "Döcke PREMIUM Сайдинг D4.5D (Банан)",
+            "color": "#ACCD28"
+        },
+        {
+            "id": 3,
+            "link": "https://google.com",
+            "image": "/static/promotion1.svg",
+            "title": "Акция -30%",
+            "description": "Döcke PREMIUM Сайдинг D4.5D (Арбуз)",
+            "color": "#AD9D81"
+        }
+    ],
+    "mainInfo": {
+        "banner": {
+            "image": {
+                "desktop": "/static/main_bc_desk.webp",
+                "table": "/static/main_bc_desk.webp",
+                "mobile": "/static/main_bc_mobile.webp"
+            },
+            "title": "Дистрибьюция строительных материалов",
+            "subtitle": "для загородного домостроения",
+            "link": {
+                "title": "Каталог",
+                "href": "/catalog/"
+            }
+        },
+        "info": [
+            {
+                "id": 1,
+                "title": "Комплексный ассортимент",
+                "desc": "Высококачественная, сертифицированная продукция для загородного домостроения. С фокусом на фасадные и кровельные решения.\nВсегда в наличии на складах."
+            },
+            {
+                "id": 2,
+                "title": "Более 15 лет опыта работы на рынке",
+                "desc": "Как производитель фасадных материалов — с 2005 года, кровельных материалов — с 2014 и как дистрибьютор — с 2019."
+            },
+            {
+                "id": 3,
+                "title": "Международные поставки",
+                "desc": "Логистическая сеть, позволяющая доставить товар в любой регион России. Представительства и склады более чем в 20 городах России."
+            },
+            {
+                "id": 4,
+                "title": "Ориентированность на клиентский сервис",
+                "desc": "Фокус не только на товарах, но и на клиентском сервисе. Сотрудничество должно быть не просто выгодным, но удобным и эффективным."
+            }
+        ],
+        "advantages": {
+            "image": {
+                "desktop": "/static/adv_bc_desk.png",
+                "table": "/static/adv_bc_desk.png",
+                "mobile": "/static/adv_bc_mobile.png"
+            },
+            "data": [
+                {
+                    "id": 1,
+                    "title": "Ассортимент",
+                    "desc": "На наших складах представлено боле 20 000 товарных позиций от ведущих поставщиков строительной продукции для загородного домостроения. Мы регулярно расширяем наш ассортимент, чтобы обеспечить комплексные поставки нашим клиентам."
+                },
+                {
+                    "id": 2,
+                    "title": "Логистика",
+                    "desc": "Мы осуществляем оперативную доставку товара до склада или объекта клиента более чем в 20 ключевых регионах России. Мы постоянно улучшаем нашу логистическую сеть и можем доставить товар в самые отдаленные места нашей страны."
+                },
+                {
+                    "id": 3,
+                    "title": "Маркетинговая поддержка",
+                    "desc": "Мы оказываем комплексную рекламную поддержку наших клиентов: в интернете, на радио и телевидении. Осуществляем совместное тентирование транспорта и транзитную рекламу. Вы всегда можете заказать у нас рекламные стенды, каталоги, буклеты и образцы продукции."
+                },
+                {
+                    "id": 4,
+                    "title": "B2B портал и IT решения для бизнеса",
+                    "desc": "Мы работаем через портал, в котором нашим клиентам всегда доступны остатки на складах, актуальные цены. 24 часа в сутки. Где видны состояние оплаты и статус заказа. Наша система поможет в подборе цвета и типа материала, а так же осуществит расчет для конкретного объекта."
+                },
+                {
+                    "id": 5,
+                    "title": "Компетенция производителя",
+                    "desc": "Наш подход к дистрибьюции основан на более чем 15 летнем опыте производства строительных материалов. Мы знаем каким требованиям должен отвечать тот или иной продукт и можем сделать лучшее предложение в любом ценовом сегменте."
+                },
+                {
+                    "id": 6,
+                    "title": "Прямые поставки от производителей",
+                    "desc": "Мы осуществляем поставки напрямую от производителей, без третьих лиц. Вся продукция проходит промежуточный контроль качества и имеет всю разрешительную и гарантийную документацию."
+                }
+            ]
+        },
+        "employees": {
+            "image": "/static/employees.png",
+            "title": "Dӧcke — мы команда специалистов с большим опытом и смелыми решениями",
+            "link": {
+                "title": "Узнать больше",
+                "href": "/company"
+            },
+            "data": [
+                {
+                    "id": 1,
+                    "title": "Сотрудников компании",
+                    "value": "1300"
+                },
+                {
+                    "id": 2,
+                    "title": "Обособленных подразделений по всей России",
+                    "value": "20"
+                },
+                {
+                    "id": 3,
+                    "title": "Товарных позиций SKU",
+                    "value": "20 000+"
+                },
+                {
+                    "id": 4,
+                    "title": "Дилеров по всей России и СНГ",
+                    "value": "3 000+"
+                }
+            ]
+        },
+        "seo": {
+            "title": "Главная",
+            "meta": {
+                "title": "Главна",
+                "keywords": "Ключевые слова",
+                "description": "Описание"
+            }
+        }
+    },
+    "productionInfo": {
+        "seo": {
+            "title": "Главная Каталога",
+            "meta": {
+                "title": "Главная Каталога",
+                "keywords": "Ключевые слова",
+                "description": "Описание"
+            }
+        },
+        "banner": {
+            "image": {
+                "desktop": "/static/dtm-dom.svg",
+                "table": "/static/dtm-dom-mobile.svg",
+                "mobile": "/static/dtm-dom-mobile.svg"
+            },
+            "title": "Продукция ДТМ это",
+            "subtitle": "Лучшие строительные материалы"
+        },
+        "breadcrumbs": [
+            {
+                "id": 1,
+                "title": "Главная",
+                "link": "/catalog"
+            },
+            {
+                "id": 2,
+                "title": "Продукция",
+                "link": "/catalog"
+            }
+        ],
+        "statistics": [
+            {
+                "id": 1,
+                "title": "Большой выбор товаров",
+                "value": "3000+"
+            },
+            {
+                "id": 2,
+                "title": "Рекламные материалы и стенды",
+                "value": "44+"
+            },
+            {
+                "id": 3,
+                "title": "Отгрузка и оплата заказов",
+                "value": "15+"
+            },
+            {
+                "id": 4,
+                "title": "Эксклюзивные бренды",
+                "value": "100+"
+            }
+        ],
+        "info": {
+            "large": {
+                "id": 1,
+                "title": "На наших торговых площадках собрана продукция ведущих производителей строительных материалов, которая необходима для реализации каждого этапа строительства дома – от фундамента до кровли, а также для дальнейшего благоустройства территории. Широкий ассортимент поможет вам сделать выбор вне зависимости от бюджета и фантазии вашего клиента."
+            },
+            "small": {
+                "id": 2,
+                "title": "Комплексный ассортимент для загородного домостроения, полный спектр высококачественной, сертифицированной продукции. На наших складах всегда представлен широкий ассортимент, вы всегда можете заказать рекламные стенды, каталоги, буклеты и образцы."
+            }
+        }
+    },
+    "productionCatalog": [
+        {
+            "id": 1,
+            "link": "/catalog/skatnaya-krovlya-pokrytiya",
+            "type": "Скатная кровля",
+            "icon": "/static/type-1.svg",
+            "varieties": [
+                {
+                    "id": 1,
+                    "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya",
+                    "name": "Гибкая черепица"
+                },
+                {
+                    "id": 2,
+                    "link": "/catalog/skatnaya-krovlya-pokrytiya/metallocherepitsa",
+                    "name": "Металлочерепица"
+                },
+                {
+                    "id": 3,
+                    "link": "/catalog/skatnaya-krovlya-pokrytiya/ondulin",
+                    "name": "Ондулин"
+                },
+                {
+                    "id": 4,
+                    "link": "/catalog/skatnaya-krovlya-pokrytiya/profnastil",
+                    "name": "Профнастил"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "link": "https://google.com",
+            "type": "Плоская кровля",
+            "icon": "/static/type-2.svg",
+            "varieties": [
+                {
+                    "id": 5,
+                    "link": "https://google.com",
+                    "name": "Рулонные материалы"
+                },
+                {
+                    "id": 6,
+                    "link": "https://google.com",
+                    "name": "Традиционные материалы"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "link": "https://google.com",
+            "type": "Фасады",
+            "icon": "/static/type-3.svg",
+            "varieties": [
+                {
+                    "id": 5,
+                    "link": "https://google.com",
+                    "name": "Фасадные панели"
+                },
+                {
+                    "id": 6,
+                    "link": "https://google.com",
+                    "name": "Фасадная плитка"
+                },
+                {
+                    "id": 7,
+                    "link": "https://google.com",
+                    "name": "Сайдинг ПВХ"
+                },
+                {
+                    "id": 8,
+                    "link": "https://google.com",
+                    "name": "Сайдинг металлический"
+                },
+                {
+                    "id": 9,
+                    "link": "https://google.com",
+                    "name": "Фасадные панели"
+                },
+                {
+                    "id": 10,
+                    "link": "https://google.com",
+                    "name": "Фасадная плитка"
+                },
+                {
+                    "id": 11,
+                    "link": "https://google.com",
+                    "name": "Сайдинг ПВХ"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "link": "https://google.com",
+            "type": "Стеновые материалы",
+            "icon": "/static/type-4.svg",
+            "varieties": [
+                {
+                    "id": 5,
+                    "link": "https://google.com",
+                    "name": "Газобетонные изделия"
+                },
+                {
+                    "id": 6,
+                    "link": "https://google.com",
+                    "name": "Керамические блоки"
+                },
+                {
+                    "id": 7,
+                    "link": "https://google.com",
+                    "name": "Кирпич"
+                },
+                {
+                    "id": 8,
+                    "link": "https://google.com",
+                    "name": "Сендвич-панели"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "link": "https://google.com",
+            "type": "Древесные материалы",
+            "icon": "/static/type-5.svg",
+            "varieties": [
+                {
+                    "id": 5,
+                    "link": "https://google.com",
+                    "name": "ДСП"
+                },
+                {
+                    "id": 6,
+                    "link": "https://google.com",
+                    "name": "ОСП"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "link": "https://google.com",
+            "type": "Водосточные системы",
+            "icon": "/static/type-6.svg",
+            "varieties": [
+                {
+                    "id": 5,
+                    "link": "https://google.com",
+                    "name": "Пластиковые"
+                },
+                {
+                    "id": 6,
+                    "link": "https://google.com",
+                    "name": "Металлические"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "link": "https://google.com",
+            "type": "Теплоизоляционные материалы",
+            "icon": "/static/type-7.svg",
+            "varieties": [
+                {
+                    "id": 5,
+                    "link": "https://google.com",
+                    "name": "Базальтовый утеплитель"
+                },
+                {
+                    "id": 6,
+                    "link": "https://google.com",
+                    "name": "Пенополистерол"
+                },
+                {
+                    "id": 7,
+                    "link": "https://google.com",
+                    "name": "Стекловолокно"
+                },
+                {
+                    "id": 8,
+                    "link": "https://google.com",
+                    "name": "Экструзионный пенополистерол"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "link": "https://google.com",
+            "type": "Плёнки и мембраны",
+            "icon": "/static/type-8.svg",
+            "varieties": [
+                {
+                    "id": 5,
+                    "link": "https://google.com",
+                    "name": "Плёнки"
+                },
+                {
+                    "id": 6,
+                    "link": "https://google.com",
+                    "name": "Мембраны"
+                },
+                {
+                    "id": 7,
+                    "link": "https://google.com",
+                    "name": "Скотчи, Ленты"
+                },
+                {
+                    "id": 8,
+                    "link": "https://google.com",
+                    "name": "Фольга"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "link": "https://google.com",
+            "type": "Материалы для внутренней отделки",
+            "icon": "/static/type-9.svg",
+            "varieties": [
+                {
+                    "id": 5,
+                    "link": "https://google.com",
+                    "name": "Выравнивание полов"
+                },
+                {
+                    "id": 6,
+                    "link": "https://google.com",
+                    "name": "Грунтовки"
+                },
+                {
+                    "id": 7,
+                    "link": "https://google.com",
+                    "name": "Клеевые составы"
+                },
+                {
+                    "id": 8,
+                    "link": "https://google.com",
+                    "name": "Краска"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "link": "https://google.com",
+            "type": "Благоустройство территории",
+            "icon": "/static/type-10.svg",
+            "varieties": [
+                {
+                    "id": 5,
+                    "link": "https://google.com",
+                    "name": "Террасная доска"
+                },
+                {
+                    "id": 6,
+                    "link": "https://google.com",
+                    "name": "Брусчатка"
+                },
+                {
+                    "id": 7,
+                    "link": "https://google.com",
+                    "name": "Ливневая канализация"
+                },
+                {
+                    "id": 8,
+                    "link": "https://google.com",
+                    "name": "Решётки, Ограждения"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "link": "https://google.com",
+            "type": "Мансардные окна",
+            "icon": "/static/type-11.svg",
+            "varieties": [
+                {
+                    "id": 5,
+                    "link": "https://google.com",
+                    "name": "Velux"
+                },
+                {
+                    "id": 6,
+                    "link": "https://google.com",
+                    "name": "Fakro"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "link": "https://google.com",
+            "type": "Чердачные лестницы",
+            "icon": "/static/type-12.svg",
+            "varieties": [
+                {
+                    "id": 5,
+                    "link": "https://google.com",
+                    "name": "Docke"
+                },
+                {
+                    "id": 6,
+                    "link": "https://google.com",
+                    "name": "Fakro"
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "link": "https://google.com",
+            "type": "Крепёж",
+            "icon": "/static/type-13.svg",
+            "varieties": [
+                {
+                    "id": 5,
+                    "link": "https://google.com",
+                    "name": "Для скатной кровли"
+                },
+                {
+                    "id": 6,
+                    "link": "https://google.com",
+                    "name": "Для фасадов"
+                },
+                {
+                    "id": 7,
+                    "link": "https://google.com",
+                    "name": "Для теплоизоляции"
+                },
+                {
+                    "id": 8,
+                    "link": "https://google.com",
+                    "name": "Для металлоконструкций"
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "link": "https://google.com",
+            "type": "Инструмент",
+            "icon": "/static/type-14.svg",
+            "varieties": [
+                {
+                    "id": 5,
+                    "link": "https://google.com",
+                    "name": "Для внутренних работ"
+                },
+                {
+                    "id": 6,
+                    "link": "https://google.com",
+                    "name": "Для наружных работ"
+                }
+            ]
+        }
+    ],
+    "catalog": {
+        "page": 1,
+        "limit": 9,
+        "productsCount": 18,
+        "products": [
+            {
+                "id": 1,
+                "elementId": 1,
+                "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya/golubika",
+                "image": "/static/product.svg",
+                "name": "Гибкая черепица Docke PIE PREMIUM КЁЛЬН Голубика",
+                "basePrice": 297,
+                "salePrice": 200,
+                "isSale": true,
+                "isSalable": true,
+                "rate": 4.99
+            },
+            {
+                "id": 2,
+                "elementId": 2,
+                "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya/golubika",
+                "image": "",
+                "name": "Гибкая черепица Docke PIE PREMIUM КЁЛЬН Голубика",
+                "basePrice": 297,
+                "salePrice": 200,
+                "isSale": false,
+                "isSalable": false,
+                "rate": 3
+            },
+            {
+                "id": 3,
+                "elementId": 3,
+                "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya/golubika",
+                "image": "/static/kitten.jpg",
+                "name": "Гибкая черепица Docke PIE PREMIUM КЁЛЬН Черника",
+                "basePrice": 400,
+                "salePrice": 200,
+                "isSale": false,
+                "isSalable": true,
+                "rate": 5
+            },
+            {
+                "id": 4,
+                "elementId": 4,
+                "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya/golubika",
+                "image": "/static/product.svg",
+                "name": "Гибкая черепица Docke PIE PREMIUM КЁЛЬН Голубика",
+                "basePrice": 297,
+                "salePrice": 200,
+                "isSale": false,
+                "isSalable": true,
+                "rate": 0
+            },
+            {
+                "id": 5,
+                "elementId": 5,
+                "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya/golubika",
+                "image": "/static/product.svg",
+                "name": "Гибкая черепица Docke PIE PREMIUM КЁЛЬН Голубика",
+                "basePrice": 297,
+                "salePrice": 200,
+                "isSale": true,
+                "isSalable": true,
+                "rate": 4.99
+            },
+            {
+                "id": 6,
+                "elementId": 6,
+                "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya/golubika",
+                "image": "/static/product.svg",
+                "name": "Гибкая черепица Docke PIE PREMIUM КЁЛЬН Голубика",
+                "basePrice": 297,
+                "salePrice": 200,
+                "isSale": false,
+                "isSalable": true,
+                "rate": 3
+            },
+            {
+                "id": 7,
+                "elementId": 7,
+                "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya/golubika",
+                "image": "/static/product.svg",
+                "name": "Гибкая черепица Docke PIE PREMIUM КЁЛЬН Голубика",
+                "basePrice": 297,
+                "salePrice": 200,
+                "isSale": false,
+                "isSalable": true,
+                "rate": 1.5
+            },
+            {
+                "id": 8,
+                "elementId": 8,
+                "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya/golubika",
+                "image": "/static/product.svg",
+                "name": "Гибкая черепица Docke PIE PREMIUM КЁЛЬН Голубика",
+                "basePrice": 297,
+                "salePrice": 200,
+                "isSale": false,
+                "isSalable": true,
+                "rate": 0
+            },
+            {
+                "id": 9,
+                "elementId": 9,
+                "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya/golubika",
+                "image": "/static/product.svg",
+                "name": "Гибкая черепица Docke PIE PREMIUM КЁЛЬН Голубика",
+                "basePrice": 297,
+                "salePrice": 200,
+                "isSale": false,
+                "isSalable": true,
+                "rate": 0
+            },
+            {
+                "id": 10,
+                "elementId": 10,
+                "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya/golubika",
+                "image": "/static/product.svg",
+                "name": "Гибкая черепица Docke PIE PREMIUM КЁЛЬН Голубика",
+                "basePrice": 297,
+                "salePrice": 200,
+                "isSale": true,
+                "isSalable": true,
+                "rate": 4.99
+            },
+            {
+                "id": 11,
+                "elementId": 11,
+                "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya/golubika",
+                "image": "/static/product.svg",
+                "name": "Гибкая черепица Docke PIE PREMIUM КЁЛЬН Голубика",
+                "basePrice": 297,
+                "salePrice": 200,
+                "isSale": false,
+                "isSalable": true,
+                "rate": 3
+            },
+            {
+                "id": 12,
+                "elementId": 12,
+                "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya/golubika",
+                "image": "/static/product.svg",
+                "name": "Гибкая черепица Docke PIE PREMIUM КЁЛЬН Голубика",
+                "basePrice": 297,
+                "salePrice": 200,
+                "isSale": false,
+                "isSalable": true,
+                "rate": 1.5
+            },
+            {
+                "id": 13,
+                "elementId": 13,
+                "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya/golubika",
+                "image": "/static/product.svg",
+                "name": "Гибкая черепица Docke PIE PREMIUM КЁЛЬН Голубика",
+                "basePrice": 297,
+                "salePrice": 200,
+                "isSale": false,
+                "isSalable": true,
+                "rate": 0
+            },
+            {
+                "id": 14,
+                "elementId": 14,
+                "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya/golubika",
+                "image": "/static/product.svg",
+                "name": "Гибкая черепица Docke PIE PREMIUM КЁЛЬН Голубика",
+                "basePrice": 297,
+                "salePrice": 200,
+                "isSale": true,
+                "isSalable": true,
+                "rate": 4.99
+            },
+            {
+                "id": 15,
+                "elementId": 15,
+                "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya/golubika",
+                "image": "/static/product.svg",
+                "name": "Гибкая черепица Docke PIE PREMIUM КЁЛЬН Голубика",
+                "basePrice": 297,
+                "salePrice": 200,
+                "isSale": false,
+                "isSalable": true,
+                "rate": 3
+            },
+            {
+                "id": 16,
+                "elementId": 16,
+                "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya/golubika",
+                "image": "/static/product.svg",
+                "name": "Гибкая черепица Docke PIE PREMIUM КЁЛЬН Голубика",
+                "basePrice": 297,
+                "salePrice": 200,
+                "isSale": false,
+                "isSalable": true,
+                "rate": 1.5
+            },
+            {
+                "id": 17,
+                "elementId": 17,
+                "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya/golubika",
+                "image": "/static/product.svg",
+                "name": "Гибкая черепица Docke PIE PREMIUM КЁЛЬН Голубика",
+                "basePrice": 297,
+                "salePrice": 200,
+                "isSale": false,
+                "isSalable": true,
+                "rate": 0
+            },
+            {
+                "id": 18,
+                "elementId": 18,
+                "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya/golubika",
+                "image": "/static/product.svg",
+                "name": "Гибкая черепица Docke PIE PREMIUM КЁЛЬН Голубика",
+                "basePrice": 297,
+                "salePrice": 200,
+                "isSale": false,
+                "isSalable": true,
+                "rate": 0
+            }
+        ]
+    },
+    "catalogInfo": {
+        "seo": {
+            "title": "Каталог",
+            "meta": {
+                "title": "Каталог",
+                "keywords": "Ключевые слова",
+                "description": "Описание"
+            }
+        },
+        "breadcrumbs": [
+            {
+                "id": 1,
+                "title": "Главная",
+                "link": "/catalog"
+            },
+            {
+                "id": 2,
+                "title": "Скатная кровля Покрытия",
+                "link": "/catalog/skatnaya-krovlya-pokrytiya"
+            },
+            {
+                "id": 3,
+                "title": "Гибкая кровля",
+                "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya"
+            }
+        ]
+    },
+    "filters": [
+        {
+            "id": 1,
+            "slug": "price",
+            "type": "slider",
+            "title": "Цена,₽ ",
+            "isOpened": true,
+            "range": {
+                "min": 150,
+                "max": 700000
+            },
+            "affordableRange": {
+                "min": 7000,
+                "max": 500000
+            }
+        },
+        {
+            "id": 2,
+            "slug": "batch",
+            "type": "checkboxText",
+            "title": "Серия",
+            "isOpened": false,
+            "values": [
+                {
+                    "id": 1,
+                    "slug": "antlantika",
+                    "title": "Атлантика",
+                    "isDisabled": false
+                },
+                {
+                    "id": 2,
+                    "slug": "vestern",
+                    "title": "Вестерн",
+                    "isDisabled": false
+                },
+                {
+                    "id": 3,
+                    "slug": "dhaz",
+                    "title": "Джаз",
+                    "isDisabled": true
+                },
+                {
+                    "id": 4,
+                    "slug": "kantri",
+                    "title": "Кантри",
+                    "isDisabled": false
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "slug": "brands",
+            "type": "checkboxText",
+            "title": "Бренды",
+            "isOpened": false,
+            "values": [
+                {
+                    "id": 1,
+                    "slug": "metall-profil",
+                    "title": "Металл Профиль",
+                    "isDisabled": false
+                },
+                {
+                    "id": 2,
+                    "slug": "docke",
+                    "title": "Docke",
+                    "isDisabled": true
+                },
+                {
+                    "id": 3,
+                    "slug": "grand-line",
+                    "title": "Grand Line",
+                    "isDisabled": false
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "slug": "illustration",
+            "type": "checkboxImage",
+            "title": "Рисунок",
+            "isOpened": false,
+            "values": [
+                {
+                    "id": 1,
+                    "slug": "brick",
+                    "image": "/static/brick.svg",
+                    "name": "Черепица",
+                    "isDisabled": false
+                },
+                {
+                    "id": 2,
+                    "slug": "mindblowing",
+                    "image": "/static/mindblowing.svg",
+                    "name": "Черепица Красивая",
+                    "isDisabled": false
+                },
+                {
+                    "id": 3,
+                    "slug": "scale",
+                    "image": "/static/scale.svg",
+                    "name": "Черепица Лучшая",
+                    "isDisabled": true
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "slug": "color",
+            "type": "checkboxColor",
+            "title": "Цвет",
+            "isOpened": false,
+            "values": [
+                {
+                    "id": 1,
+                    "slug": "avocado",
+                    "color": "#686F5F",
+                    "title": "Авокадо",
+                    "isDisabled": false
+                },
+                {
+                    "id": 2,
+                    "slug": "agat",
+                    "color": "#776159",
+                    "title": "Агат",
+                    "isDisabled": true
+                },
+                {
+                    "id": 3,
+                    "slug": "asia",
+                    "color": "#685157",
+                    "title": "Азия",
+                    "isDisabled": false
+                },
+                {
+                    "id": 4,
+                    "slug": "alabama",
+                    "color": "#745D4B",
+                    "title": "Алабама",
+                    "isDisabled": false
+                },
+                {
+                    "id": 5,
+                    "slug": "alikante",
+                    "color": "#AD9D81",
+                    "title": "Аликанте",
+                    "isDisabled": false
+                }
+            ]
+        }
+    ],
+    "sort": [
+        {
+            "id": 1,
+            "slug": "poor",
+            "title": "Сначала дешевле"
+        },
+        {
+            "id": 2,
+            "slug": "expensive",
+            "title": "Сначала дороже"
+        }
+    ],
+    "varieties": [
+        {
+            "id": 1,
+            "slug": "gybkaya-krovlya",
+            "title": "Гибкая кровля",
+            "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya",
+            "isChecked": true
+        },
+        {
+            "id": 2,
+            "slug": "metallocherepitsa",
+            "title": "Металлочерепица",
+            "link": "/catalog/skatnaya-krovlya-pokrytiya/metallocherepitsa",
+            "isChecked": false
+        },
+        {
+            "id": 3,
+            "slug": "ondulin",
+            "title": "Ондулин",
+            "link": "/catalog/skatnaya-krovlya-pokrytiya/ondulin",
+            "isChecked": false
+        },
+        {
+            "id": 4,
+            "slug": "profnastil",
+            "title": "Профнастил",
+            "link": "/catalog/skatnaya-krovlya-pokrytiya/profnastil",
+            "isChecked": false
+        },
+        {
+            "id": 5,
+            "slug": "cementno-ptschanaya-cherepitsa",
+            "title": "Цементно-песчанная черепица",
+            "link": "/catalog/skatnaya-krovlya-pokrytiya/cementno-ptschanaya-cherepitsa",
+            "isChecked": false
+        }
+    ],
+    "reviews": [
+        {
+            "id": 1,
+            "name": "Константин Константинович Константинопольский",
+            "photo": "",
+            "date": "29.09.2020",
+            "rate": 4,
+            "review": "Отличная модель, если ищите UHD (4K) монитор до 30к. Ключевые неудобства были только с виндой, на последней версии Win10 приходится масштабировать шрифты интерфейса сторонней программой. А так, на 175% масштаба элементов Windows все очень юзабельно.",
+            "reply": "Добрый день, Константин. Спасибо за оставленный отзыв. Надеемся увидеть Вас снова в нашем магазине!\nС уважением, Docke."
+        },
+        {
+            "id": 2,
+            "name": "Василий Иванов",
+            "photo": "/static/kitten.jpg",
+            "date": "28.09.2020",
+            "rate": 3,
+            "review": "Брал для работы с графикой и фотографией. По передаче цвета модель отличная, черный на ноутбуке оказался гораздо глубже. Заметно на контрасте. Настройки погоды не сделали.\nПокупался под связку с Xiaomi Nootbook Pro 15.6. Временно работаю через HDMI (1.3) при частоте 30гц. Для большей частоты при 3840х2160 нужен type-c. Заказал оригинальный от сяоми с Type-C на DP mini(зарядка ноутбука + передача сигнала). Думал между им и 27UK850, счёл последний не рациональным, переплата в 7 тысяч за Type-c , который ещё и не заряжающий ноутбук.. В целом монитор отличный!",
+            "reply": ""
+        },
+        {
+            "rate": 3,
+            "name": "Алёна",
+            "email": "ahyk23@uandex.ru",
+            "review": "отзыв",
+            "id": 1669195929136,
+            "photo": "",
+            "date": "23.11.2022",
+            "reply": ""
+        },
+        {
+            "rate": 5,
+            "name": "Алия Рашитовна Комарова",
+            "email": "komarova.aliya@yandex.ru",
+            "review": "cool",
+            "id": 1669196140381,
+            "photo": "",
+            "date": "23.11.2022",
+            "reply": ""
+        },
+        {
+            "rate": 5,
+            "name": "Alyona Komarova",
+            "email": "ahyk2346@gmail.com",
+            "review": "comment",
+            "id": 1669276808839,
+            "photo": "",
+            "date": "24.11.2022",
+            "reply": ""
+        },
+        {
+            "rate": 4,
+            "name": "nbjnm njknk",
+            "email": "ahyk2346@gmail.com",
+            "review": "отзыв",
+            "id": 1669281198576,
+            "photo": "",
+            "date": "24.11.2022",
+            "reply": ""
+        }
+    ],
+    "productDetail": {
+        "id": 3,
+        "elementId": 3,
+        "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya/golubika",
+        "image": "/static/kitten.jpg",
+        "basePrice": 400,
+        "salePrice": 200,
+        "isSale": false,
+        "isSalable": true,
+        "rate": 5,
+        "slug": "blabla",
+        "title": "Гибкая черепица Docke PIE PREMIUM КЁЛЬН Голубика",
+        "reviews": 23,
+        "count": 0,
+        "isFavorite": false,
+        "isComparable": false,
+        "measureCode": "list",
+        "measureName": "лист",
+        "converters": [
+            {
+                "name": "м2",
+                "code": "metr",
+                "codeOKEI": 0,
+                "multiplier": 0.5
+            }
+        ],
+        "photos": [
+            {
+                "id": 1,
+                "image": "/static/kitten.jpg"
+            },
+            {
+                "id": 2,
+                "image": "/static/detail.svg"
+            },
+            {
+                "id": 3,
+                "image": ""
+            },
+            {
+                "id": 4,
+                "image": "/static/detail.svg"
+            },
+            {
+                "id": 5,
+                "image": "/static/kitten.jpg"
+            },
+            {
+                "id": 6,
+                "image": "/static/detail.svg"
+            }
+        ],
+        "sku": [
+            {
+                "id": 1,
+                "slug": "golubika",
+                "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya/golubika",
+                "image": "",
+                "isChecked": true,
+                "isDisabled": false
+            },
+            {
+                "id": 2,
+                "slug": "golubika-2",
+                "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya/golubika-2",
+                "image": "/static/color-2.svg",
+                "isChecked": false,
+                "isDisabled": true
+            },
+            {
+                "id": 3,
+                "slug": "golubika-3",
+                "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya/golubika-3",
+                "image": "/static/color-3.svg",
+                "isChecked": false,
+                "isDisabled": false
+            },
+            {
+                "id": 4,
+                "slug": "golubika-4",
+                "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya/golubika-4",
+                "image": "/static/color-4.svg",
+                "isChecked": false,
+                "isDisabled": false
+            },
+            {
+                "id": 5,
+                "slug": "golubika-3",
+                "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya/golubika-3",
+                "image": "/static/color-3.svg",
+                "isChecked": false,
+                "isDisabled": false
+            },
+            {
+                "id": 6,
+                "slug": "golubika-4",
+                "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya/golubika-4",
+                "image": "/static/color-4.svg",
+                "isChecked": false,
+                "isDisabled": false
+            }
+        ],
+        "info": [
+            {
+                "id": 1,
+                "name": "Артикул",
+                "value": "ZRKM-1025"
+            },
+            {
+                "id": 2,
+                "name": "Бренд",
+                "value": "Docke"
+            },
+            {
+                "id": 3,
+                "name": "Толщина, мм",
+                "value": 2.8
+            },
+            {
+                "id": 4,
+                "name": "Длина, мм",
+                "value": 1000
+            }
+        ],
+        "detailInfo": {
+            "description": "Гибкая черепица Docke PIE Europa Купол представляет собой кровельное изделие в виде плоского листа, изготовленного из пропитанного окисленным битумом стеклохолста с фигурными вырезами по одному краю листа. Верхняя поверхность черепицы покрыта прикатанным к битуму миксом различных гранулятов: базальт, антрацит. Нижняя поверхность черепицы покрыта посыпкой из мелкозернистого песка, а также транспортировочными плёнками.",
+            "characteristics": [
+                {
+                    "id": 1,
+                    "name": "Артикул",
+                    "value": "ZRKM-1025"
+                },
+                {
+                    "id": 2,
+                    "name": "Бренд",
+                    "value": "Docke"
+                },
+                {
+                    "id": 3,
+                    "name": "Толщина, мм",
+                    "value": 2.8
+                },
+                {
+                    "id": 4,
+                    "name": "Длина, мм",
+                    "value": 1000
+                }
+            ],
+            "documentation": [
+                {
+                    "id": 1,
+                    "file": "https://www.docke.ru/upload/iblock/e13/jsts79jggkteo0zel4pfrmfoyz3r0w4z/5.6-_-Tekhlist-Universalnye-aksessuary-15-mm.pdf",
+                    "name": "Техлист Универсальные аксессуары 15 мм",
+                    "format": "pdf",
+                    "size": "414 КБ",
+                    "icon": "/static/file.svg"
+                },
+                {
+                    "id": 2,
+                    "file": "https://www.docke.ru/upload/iblock/7e8/f0x8yiwd6unxi6b8erfeoexw2lfja5e9/5.4-_-Tekhlist-Sayding-D_cke-STANDARD.pdf",
+                    "name": "Технический лист сайдинга Döcke Standard",
+                    "format": "pdf",
+                    "size": "496 КБ",
+                    "icon": "/static/file.svg"
+                },
+                {
+                    "id": 3,
+                    "file": "https://www.docke.ru/upload/iblock/c51/3w7ufxawxurd0dy2jq27yu62oaeylw50/DSPB-Sayding-do-12.09.2027.pdf",
+                    "name": "Сертификат соответствия требованиям пожарной безопасности",
+                    "format": "pdf",
+                    "size": "542 КБ",
+                    "icon": "/static/file.svg"
+                },
+                {
+                    "id": 4,
+                    "file": "https://www.docke.ru/upload/iblock/fbf/SS-trebovaniyam-TU-sayding-12.jpg",
+                    "name": "Сертификат соответствия требованиям ТУ",
+                    "format": "jpeg",
+                    "size": "1 МБ",
+                    "icon": "/static/file.svg"
+                }
+            ]
+        }
+    },
+    "productDetailInfo": {
+        "seo": {
+            "title": "Карточка товара",
+            "meta": {
+                "title": "Карточка товара",
+                "keywords": "Ключевые слова",
+                "description": "Описание"
+            }
+        },
+        "breadcrumbs": [
+            {
+                "id": 1,
+                "title": "Главная",
+                "link": "/catalog"
+            },
+            {
+                "id": 2,
+                "title": "Скатная кровля Покрытия",
+                "link": "/catalog/skatnaya-krovlya-pokrytiya"
+            },
+            {
+                "id": 3,
+                "title": "Гибкая кровля",
+                "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya"
+            },
+            {
+                "id": 4,
+                "title": "Серия PREMIUM",
+                "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya"
+            },
+            {
+                "id": 5,
+                "title": "Коллекция КЁЛЬН",
+                "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya"
+            }
+        ],
+        "additionalInfo": {
+            "title": "Гибкая черепица",
+            "description": "Гибкая черепица Docke PIE Europa Купол представляет собой кровельное изделие в виде плоского листа, изготовленного из пропитанного окисленным битумом стеклохолста с фигурными вырезами по одному краю листа. Верхняя поверхность черепицы покрыта прикатанным к битуму миксом различных гранулятов: базальт, антрацит. Нижняя поверхность черепицы покрыта посыпкой из мелкозернистого песка, а также транспортировочными плёнками. Гибкая черепица Docke PIE Europa Купол представляет собой кровельное изделие в виде плоского листа, изготовленного из пропитанного окисленным битумом стеклохолста с фигурными вырезами по одному краю листа. Верхняя поверхность черепицы покрыта прикатанным к битуму миксом различных гранулятов: базальт, антрацит. Нижняя поверхность черепицы покрыта посыпкой из мелкозернистого песка, а также транспортировочными плёнками.",
+            "image": "/static/additionalInfo.svg"
+        }
+    },
+    "viewed": [
+        {
+            "id": 1,
+            "elementId": 1,
+            "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya/golubika",
+            "image": "/static/product.svg",
+            "name": "Гибкая черепица Docke PIE PREMIUM КЁЛЬН Голубика",
+            "basePrice": 297,
+            "salePrice": 200,
+            "isSale": false,
+            "rate": 4.99
+        },
+        {
+            "id": 2,
+            "elementId": 2,
+            "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya/golubika",
+            "image": "/static/product.svg",
+            "name": "Гибкая черепица Docke PIE PREMIUM КЁЛЬН Голубика",
+            "basePrice": 297,
+            "salePrice": 200,
+            "isSale": false,
+            "rate": 4.99
+        },
+        {
+            "id": 3,
+            "elementId": 3,
+            "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya/golubika",
+            "image": "/static/product.svg",
+            "name": "Гибкая черепица Docke PIE PREMIUM КЁЛЬН Голубика",
+            "basePrice": 297,
+            "salePrice": 200,
+            "isSale": false,
+            "rate": 4.99
+        },
+        {
+            "id": 4,
+            "elementId": 4,
+            "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya/golubika",
+            "image": "/static/product.svg",
+            "name": "Гибкая черепица Docke PIE PREMIUM КЁЛЬН Голубика",
+            "basePrice": 297,
+            "salePrice": 200,
+            "isSale": false,
+            "rate": 4.99
+        },
+        {
+            "id": 5,
+            "elementId": 5,
+            "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya/golubika",
+            "image": "/static/product.svg",
+            "name": "Гибкая черепица Docke PIE PREMIUM КЁЛЬН Голубика",
+            "basePrice": 297,
+            "salePrice": 200,
+            "isSale": false,
+            "rate": 4.99
+        },
+        {
+            "id": 6,
+            "elementId": 6,
+            "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya/golubika",
+            "image": "/static/product.svg",
+            "name": "Гибкая черепица Docke PIE PREMIUM КЁЛЬН Голубика",
+            "basePrice": 297,
+            "salePrice": 200,
+            "isSale": false,
+            "rate": 4.99
+        }
+    ],
+    "recommendation": [
+        {
+            "id": 1,
+            "elementId": 1,
+            "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya/golubika",
+            "image": "/static/product.svg",
+            "name": "Гибкая черепица Docke PIE PREMIUM КЁЛЬН Голубика",
+            "basePrice": 297,
+            "salePrice": 200,
+            "isSale": true,
+            "rate": 4.99
+        },
+        {
+            "id": 2,
+            "elementId": 2,
+            "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya/golubika",
+            "image": "/static/product.svg",
+            "name": "Гибкая черепица Docke PIE PREMIUM КЁЛЬН Голубика",
+            "basePrice": 297,
+            "salePrice": 200,
+            "isSale": false,
+            "rate": 4.99
+        },
+        {
+            "id": 3,
+            "elementId": 3,
+            "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya/golubika",
+            "image": "/static/product.svg",
+            "name": "Гибкая черепица Docke PIE PREMIUM КЁЛЬН Голубика",
+            "basePrice": 297,
+            "salePrice": 200,
+            "isSale": false,
+            "rate": 4.99
+        },
+        {
+            "id": 4,
+            "elementId": 4,
+            "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya/golubika",
+            "image": "/static/product.svg",
+            "name": "Гибкая черепица Docke PIE PREMIUM КЁЛЬН Голубика",
+            "basePrice": 297,
+            "salePrice": 200,
+            "isSale": false,
+            "rate": 4.99
+        },
+        {
+            "id": 5,
+            "elementId": 5,
+            "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya/golubika",
+            "image": "/static/product.svg",
+            "name": "Гибкая черепица Docke PIE PREMIUM КЁЛЬН Голубика",
+            "basePrice": 297,
+            "salePrice": 200,
+            "isSale": false,
+            "rate": 4.99
+        },
+        {
+            "id": 6,
+            "elementId": 6,
+            "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya/golubika",
+            "image": "/static/product.svg",
+            "name": "Гибкая черепица Docke PIE PREMIUM КЁЛЬН Голубика",
+            "basePrice": 297,
+            "salePrice": 200,
+            "isSale": false,
+            "rate": 4.99
+        }
+    ],
+    "crossSale": [
+        {
+            "id": 1,
+            "elementId": 1,
+            "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya/golubika",
+            "image": "/static/product.svg",
+            "name": "Гибкая черепица Docke PIE PREMIUM КЁЛЬН Голубика",
+            "basePrice": 297,
+            "salePrice": 200,
+            "isSale": false,
+            "rate": 4.99
+        },
+        {
+            "id": 2,
+            "elementId": 2,
+            "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya/golubika",
+            "image": "/static/product.svg",
+            "name": "Гибкая черепица Docke PIE PREMIUM КЁЛЬН Голубика",
+            "basePrice": 297,
+            "salePrice": 200,
+            "isSale": false,
+            "rate": 4.99
+        }
+    ],
+    "compare": [
+        {
+            "groupId": 1,
+            "groupName": "Черепица",
+            "data": [
+                {
+                    "id": 1,
+                    "elementId": 1,
+                    "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya/golubika",
+                    "image": "/static/product.svg",
+                    "name": "Гибкая черепица Docke PIE PREMIUM КЁЛЬН Голубика",
+                    "basePrice": 297,
+                    "salePrice": 200,
+                    "isSale": true,
+                    "isSalable": true,
+                    "rate": 4.99,
+                    "characteristics": [
+                        {
+                            "id": 1,
+                            "name": "АртикулАртикулАртикулАртикулАртикул",
+                            "value": "ZRKM-1025"
+                        },
+                        {
+                            "id": 2,
+                            "name": "Бренд",
+                            "value": "Docke"
+                        },
+                        {
+                            "id": 3,
+                            "name": "Толщина, мм",
+                            "value": 2.8
+                        },
+                        {
+                            "id": 4,
+                            "name": "Длина, мм",
+                            "value": 1000
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "elementId": 2,
+                    "link": "/catalog/skatnaya-krovlya-pokrytiya/gybkaya-krovlya/golubika",
+                    "image": "",
+                    "name": "Гибкая черепица Docke PIE PREMIUM КЁЛЬН Голубика",
+                    "basePrice": 297,
+                    "salePrice": 200,
+                    "isSale": false,
+                    "isSalable": false,
+                    "rate": 3,
+                    "characteristics": [
+                        {
+                            "id": 1,
+                            "name": "АртикулАртикулАртикулАртикулАртикул",
+                            "value": "ZRKM-1025"
+                        },
+                        {
+                            "id": 2,
+                            "name": "Бренд",
+                            "value": "Docke"
+                        },
+                        {
+                            "id": 3,
+                            "name": "Толщина, мм",
+                            "value": 2.8
+                        },
+                        {
+                            "id": 4,
+                            "name": "Длина, мм",
+                            "value": 1000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groupId": 2,
+            "groupName": "Черепица Классная",
+            "data": []
+        }
+    ],
+    "contactsInfo": {
+        "seo": {
+            "title": "Контакты",
+            "meta": {
+                "title": "Главна",
+                "keywords": "Ключевые слова",
+                "description": "Описание"
+            }
+        },
+        "items": [
+            {
+                "id": 1,
+                "name": "Центральный офис",
+                "address": "г. Екатеринбург ул. Сибирский тракт 12, стр.1, оф. 310 (выписка документов и оплата)",
+                "phone": {
+                    "text": "+7 (912) 391-96-71",
+                    "link": "7(912)391-96-71"
+                },
+                "time": "Пн-Пт с 9:00 до 18:00",
+                "email": {
+                    "text": "zakaz-ekat@docke-tm.ru",
+                    "link": "mailto:zakaz-ekat@docke-tm.ru"
+                },
+                "photo": ["/static/kitten.jpg", "/static/kitten.jpg", "/static/kitten.jpg"],
+                "coords": {
+                    "latitude": 57.148849,
+                    "longitude": 66.559876
+                }
+            },
+            {
+                "id": 2,
+                "name": "Центральный офис 2",
+                "location": null,
+                "phone": null,
+                "time": null,
+                "email": {
+                    "text": "zakaz-ekat@docke-tm.ru",
+                    "link": "mailto:zakaz-ekat@docke-tm.ru"
+                },
+                "coords": {
+                    "latitude": 56.148849,
+                    "longitude": 68.559876
+                }
+            }
+        ]
+    }
+}

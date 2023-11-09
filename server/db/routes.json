@@ -1,0 +1,23 @@
+{
+  "/api/v1/domain": "/domain",
+  "/api/v1/regions": "/regions",
+  "/api/v1/shippings": "/shippingTypes",
+  "/api/v1/shipping/pickupAddresses": "/pickupAddresses",
+  "/api/v1/partners": "/partners",
+  "/api/v1/products": "/products",
+  "/api/v1/promotions": "/promotions",
+  "/api/v1/sections/info": "/mainInfo",
+  "/api/v1/promotions/catalog/*": "/promotions",
+  "/api/v1/productionCatalog": "/productionCatalog",
+  "/api/v1/viewed": "/viewed",
+  "/api/v1/recommendation/catalog/*": "/recommendation",
+  "/api/v1/crossSale/catalog/*": "/crossSale",
+  "/api/v1/catalog/sections/info": "/productionInfo",
+  "/api/v1/catalog/section/filters/*": "/filters",
+  "/api/v1/catalog/section/varieties/*": "/varieties",
+  "/api/v1/catalog/section/sort/*": "/sort",
+  "/api/v1/catalog/section/info/*": "/catalogInfo",
+  "/api/v1/catalog/section/*": "/catalog",
+  "/api/v1/catalog/detail/info/*": "/productDetailInfo",
+  "/api/v1/catalog/detail/*": "/productDetail"
+}
